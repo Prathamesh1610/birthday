@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <button id="snowflakeButton" onclick="showPasswordPrompt()">&#10052</button>
+    <div id="passwordPrompt" class="hidden">
+        <div class="password-box">
+          <div class="password-label">Enter Password:</div>
+          <input type="password" id="password" class="password-input" placeholder="Password">
+          <button class="submit-button" onclick="checkPassword()">Submit</button>
+        </div>
+    </div>
+    <div id="errorDialog" class="hidden">
+        <p>Imposter detected!!</p>
+    </div>
+    <script src="message.js"></script>
+</body>
+</html>
+

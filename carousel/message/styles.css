@@ -1,0 +1,64 @@
+.hidden {
+    display: none;
+}
+
+.password-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.password-label {
+    margin-bottom: 10px;
+}
+
+.password-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background: linear-gradient(135deg, #F06, #FFD700);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#snowflakeButton {
+    font-size: 36px;
+    cursor: pointer;
+    background: conic-gradient(from 0deg, #FFF, #BBE, #FFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    border: none;
+    outline: none;
+}
+#errorDialog {
+    color: #ff0000; /* Red color for the error message */
+    font-weight: bold;
+    font-size: 18px;
+    animation: pop 1s step-end;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
